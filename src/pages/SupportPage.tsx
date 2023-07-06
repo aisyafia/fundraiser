@@ -32,7 +32,7 @@ const SupportPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button variant="contained" fullWidth>
+            <Button variant="contained" sx={{ p: 2 }}>
               Send donation on our gofundme
             </Button>
           </a>

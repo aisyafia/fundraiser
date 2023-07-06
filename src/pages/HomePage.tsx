@@ -11,7 +11,7 @@ const HomePage = () => {
       </Typography>
       <Grid container direction={"row"} spacing={2} marginBottom={4}>
         <Grid item xs={6}>
-          <img src={Photo2} alt="Nai and the girls" width="450px" />
+          <img src={Photo2} alt="Nai and the girls" width="500px" />
         </Grid>
         <Grid item maxWidth="500px" xs={6}>
           <Typography>
