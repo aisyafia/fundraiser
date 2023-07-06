@@ -1,7 +1,6 @@
-import { Button, Container, Grid, Typography } from "@mui/material";
+import { Container, Grid, Typography } from "@mui/material";
 import Photo1 from "../Assets/PHOTO 1.jpg";
 import Photo2 from "../Assets/PHOTO 2.jpg";
-import Photo4 from "../Assets/PHOTO 4.jpg";
 
 const HomePage = () => {
   return (

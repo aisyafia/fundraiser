@@ -6,12 +6,8 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
-import { red } from "@mui/material/colors";
-
-import { NavLink, useLocation } from "react-router-dom";
 
 const NavBar = () => {
-  const location = useLocation();
   return (
     <Box>
       <AppBar position="static">
@@ -40,7 +36,7 @@ const NavBar = () => {
                 sx={{
                   fontFamily: "Quicksand",
                   p: 2,
-                  color: "orange",
+                  color: "Coral",
                   fontWeight: 800,
                   fontSize: "large",
                 }}
@@ -52,13 +48,25 @@ const NavBar = () => {
                 sx={{
                   fontFamily: "Quicksand",
                   p: 2,
-                  color: "orange",
+                  color: "Coral",
                   fontWeight: 800,
                   fontSize: "large",
                 }}
               >
                 {" "}
                 Support Us
+              </Link>
+              <Link
+                href="/team"
+                sx={{
+                  fontFamily: "Quicksand",
+                  p: 2,
+                  color: "Coral",
+                  fontWeight: 800,
+                  fontSize: "large",
+                }}
+              >
+                Our Team
               </Link>
             </Box>
           </Toolbar>
