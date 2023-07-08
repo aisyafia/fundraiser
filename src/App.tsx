@@ -21,6 +21,12 @@ function App() {
     },
     typography: {
       fontFamily: "Quicksand",
+      h4: {
+        fontSize: "2rem",
+        fontWeight: 700,
+        color: "#720026",
+        marginBottom: "0.75rem",
+      },
     },
   });
   return (

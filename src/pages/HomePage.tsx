@@ -1,6 +1,6 @@
 import { Container, Grid, Typography } from "@mui/material";
 import Photo1 from "../Assets/PHOTO 1.jpg";
-import Photo2 from "../Assets/PHOTO 2.jpg";
+import Photo2 from "../Assets/PHOTO 2 2.jpg";
 
 const HomePage = () => {
   return (
@@ -8,11 +8,11 @@ const HomePage = () => {
       <Typography variant="h4" align="center">
         About
       </Typography>
-      <Grid container direction={"row"} spacing={2} marginBottom={4}>
+      <Grid container direction={"row"} marginBottom={1}>
         <Grid item xs={6}>
           <img src={Photo2} alt="Nai and the girls" width="500px" />
         </Grid>
-        <Grid item maxWidth="500px" xs={6}>
+        <Grid item maxWidth="300px" xs={6}>
           <Typography>
             Hello, my name is Naisula Lepariyo and I have partnered with an
             organization called{" "}
@@ -78,7 +78,7 @@ const HomePage = () => {
             become a dream crusher to these young girls?
           </Typography>
         </Grid>
-        <Grid item xs={6}>
+        <Grid item xs={6} padding={1}>
           <img src={Photo1} alt="Samburu school kids" width="500px" />
         </Grid>
       </Grid>

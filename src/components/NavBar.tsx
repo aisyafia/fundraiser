@@ -6,12 +6,13 @@ import {
   Toolbar,
   Typography,
 } from "@mui/material";
+import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
   return (
     <Box>
       <AppBar position="static">
-        <Container>
+        <Container sx={{ display: "flex", justifyContent: "space-between" }}>
           <Toolbar>
             <Typography
               variant="h6"
@@ -68,6 +69,7 @@ const NavBar = () => {
               >
                 Our Team
               </Link>
+              {/* <NavLink to="/goal">Our Goal</NavLink> */}
             </Box>
           </Toolbar>
         </Container>
