@@ -69,7 +69,7 @@ const NavBar = () => {
               >
                 Our Team
               </Link>
-              {/* <NavLink to="/goal">Our Goal</NavLink> */}
+              <NavLink to="/goal">Our Goal</NavLink>
             </Box>
           </Toolbar>
         </Container>
