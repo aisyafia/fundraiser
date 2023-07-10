@@ -13,7 +13,6 @@ const Header = () => {
         marginTop={0.5}
         marginBottom={4}
         justifyContent={"center"}
-        maxWidth={"100%"}
       >
         <img
           src={Photo5}

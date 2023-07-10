@@ -2,17 +2,24 @@ import {
   AppBar,
   Box,
   Container,
-  Link,
   Toolbar,
   Typography,
+  Grid,
 } from "@mui/material";
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
+  const NavBarItems = [
+    { href: "/goal", title: "Our Goal" },
+    { href: "/supportus", title: "Support Us" },
+    { href: "/team", title: "Our Team" },
+  ];
   return (
     <Box>
       <AppBar position="static">
-        <Container sx={{ display: "flex", justifyContent: "space-between" }}>
+        <Container
+          sx={{ display: "flex", justifyContent: "space-between", flexGrow: 3 }}
+        >
           <Toolbar>
             <Typography
               variant="h6"
@@ -31,45 +38,27 @@ const NavBar = () => {
             >
               Samburu Menstrual Kit Project
             </Typography>
-            <Box sx={{ flexGrow: 3 }}>
-              <Link
-                href="/goal"
-                sx={{
-                  fontFamily: "Quicksand",
-                  p: 2,
-                  color: "Coral",
-                  fontWeight: 800,
-                  fontSize: "large",
-                }}
-              >
-                Our Goal
-              </Link>
-              <Link
-                href="/supportus"
-                sx={{
-                  fontFamily: "Quicksand",
-                  p: 2,
-                  color: "Coral",
-                  fontWeight: 800,
-                  fontSize: "large",
-                }}
-              >
-                {" "}
-                Support Us
-              </Link>
-              <Link
-                href="/team"
-                sx={{
-                  fontFamily: "Quicksand",
-                  p: 2,
-                  color: "Coral",
-                  fontWeight: 800,
-                  fontSize: "large",
-                }}
-              >
-                Our Team
-              </Link>
-              <NavLink to="/goal">Our Goal</NavLink>
+            <Box>
+              <Grid>
+                {NavBarItems.map((item) => {
+                  return (
+                    <NavLink
+                      key={item.title}
+                      to={`${item.href}`}
+                      style={{
+                        textDecoration: "none",
+                        margin: "0.75rem",
+                        padding: "0.25rem",
+                        color: "Coral",
+                        fontWeight: 800,
+                        fontSize: "large",
+                      }}
+                    >
+                      {item.title}
+                    </NavLink>
+                  );
+                })}
+              </Grid>
             </Box>
           </Toolbar>
         </Container>
