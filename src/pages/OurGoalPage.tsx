@@ -42,4 +42,4 @@ const OurGoalPage = () => {
   );
 };
 
-export default OurGoalPage;
+export { OurGoalPage };

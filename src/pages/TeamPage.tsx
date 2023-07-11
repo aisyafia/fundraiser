@@ -82,4 +82,4 @@ const TeamPage = () => {
   );
 };
 
-export default TeamPage;
+export { TeamPage };

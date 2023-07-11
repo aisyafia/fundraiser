@@ -1,13 +1,14 @@
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
 import { Container } from "@mui/material";
-import HomePage from "./pages/HomePage";
-import OurGoalPage from "./pages/OurGoalPage";
-import Header from "./components/Header";
-import NavBar from "./components/NavBar";
-import SupportPage from "./pages/SupportPage";
-import TeamPage from "./pages/TeamPage";
-import ProjectsPage from "./pages/ProjectsPage";
+import {
+  HomePage,
+  OurGoalPage,
+  ProjectsPage,
+  SupportPage,
+  TeamPage,
+} from "./pages";
+import { Header, NavBar } from "./components";
 import { ThemeProvider, createTheme } from "@mui/material";
 
 function App() {

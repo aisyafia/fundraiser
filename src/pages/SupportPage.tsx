@@ -52,4 +52,4 @@ const SupportPage = () => {
   );
 };
 
-export default SupportPage;
+export { SupportPage };
