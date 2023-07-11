@@ -56,7 +56,7 @@ const NavBar = () => {
               textDecoration: "none",
             }}
           >
-            Samburu Menstrual Kit Project
+            Big Sister for Small Sister
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
@@ -131,7 +131,7 @@ const NavBar = () => {
               textDecoration: "none",
             }}
           >
-            Samburu Menstrual Kit Project
+            Big Sister for Small Sister
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             {NavBarItems.map((item) => {

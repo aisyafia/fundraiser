@@ -6,7 +6,7 @@ const ProjectsPage = () => {
   return (
     <Container>
       <Typography variant="h4" align="center">
-        Project Menstrual Kit
+        Project Samburu Menstrual Kit
       </Typography>
       <Grid container direction={"row"} marginBottom={1}>
         <Grid item xs={6}>
