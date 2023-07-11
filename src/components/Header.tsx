@@ -1,39 +1,46 @@
-import { Container, Grid } from "@mui/material";
-import GoFundMe from "../Assets/GO FUND ME  PIC.png";
-import Photo3 from "../Assets/PHOTO 3.jpg";
-import Photo5 from "../Assets/PHOTO 5.jpg";
-import Photo6 from "../Assets/PHOTO 6.jpg";
+import { Container, Grid, ImageList, ImageListItem } from "@mui/material";
 
 const Header = () => {
+  const itemData = [
+    { title: "Photo5", desc: "Samburu kids with the kit", img: "PHOTO 5" },
+    {
+      title: "GoFundMe",
+      desc: "GOFUNDME banner",
+      img: "GoFundMe",
+    },
+    {
+      title: "Photo3",
+      desc: "hands holding the kit",
+      img: "PHOTO 3",
+    },
+    {
+      title: "Photo6",
+      desc: "the menstrual kit",
+      img: "PHOTO 6",
+    },
+  ];
+
   return (
     <Container>
-      <Grid
-        container
-        direction={"row"}
-        marginTop={0.5}
-        marginBottom={4}
-        justifyContent={"center"}
-      >
-        <img
-          src={Photo5}
-          alt="Samburu kids with the kit"
-          style={{ maxHeight: "200px", borderRadius: 5 }}
-        />
-        <img
-          src={GoFundMe}
-          alt="GOFUNDME banner"
-          style={{ maxHeight: "200px", borderRadius: 5 }}
-        />
-        <img
-          src={Photo3}
-          alt="hands holding the kit"
-          style={{ maxHeight: "200px", borderRadius: 5 }}
-        />
-        <img
-          src={Photo6}
-          alt="the menstrual kit"
-          style={{ maxHeight: "200px", borderRadius: 5 }}
-        />
+      <Grid container marginTop={0.5} marginBottom={3}>
+        <ImageList
+          variant="quilted"
+          sx={{ width: 1550, height: 165 }}
+          cols={4}
+          rowHeight={175}
+        >
+          {itemData.map((item) => {
+            return (
+              <ImageListItem key={item.title}>
+                <img
+                  src={require("../Assets/" + item.img + ".jpg")}
+                  alt={item.desc}
+                  loading="lazy"
+                />
+              </ImageListItem>
+            );
+          })}
+        </ImageList>
       </Grid>
     </Container>
   );

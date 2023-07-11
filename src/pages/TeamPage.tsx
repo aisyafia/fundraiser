@@ -62,7 +62,7 @@ const TeamPage = () => {
           return (
             <Card key={team.photo} sx={{ maxWidth: 345, m: 0.5 }}>
               <CardMedia
-                sx={{ height: 350 }}
+                sx={{ height: 300 }}
                 image={require("../Assets/" + team.photo + ".jpeg")}
                 title={team.name}
               />

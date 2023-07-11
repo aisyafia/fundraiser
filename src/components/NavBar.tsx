@@ -48,7 +48,13 @@ const NavBar = () => {
             href="/"
             sx={{
               mr: 2,
-              display: { xs: "none", md: "flex" },
+              display: {
+                xs: "none",
+                sm: "none",
+                md: "flex",
+                lg: "flex",
+                xl: "flex",
+              },
               fontFamily: "Quicksand",
               fontWeight: 400,
               letterSpacing: ".2rem",
@@ -59,7 +65,18 @@ const NavBar = () => {
             Big Sister for Small Sister
           </Typography>
 
-          <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: {
+                xs: "flex",
+                sm: "flex",
+                md: "none",
+                lg: "none",
+                xl: "none",
+              },
+            }}
+          >
             <IconButton
               color="inherit"
               aria-haspopup="true"
@@ -74,7 +91,15 @@ const NavBar = () => {
               transformOrigin={{ vertical: "top", horizontal: "left" }}
               open={Boolean(anchorNav)}
               onClose={handleCloseNav}
-              sx={{ display: { xs: "block", md: "none" } }}
+              sx={{
+                display: {
+                  xs: "block",
+                  sm: "block",
+                  md: "none",
+                  lg: "none",
+                  xl: "none",
+                },
+              }}
             >
               {NavBarItems.map((item) => {
                 return (
@@ -122,7 +147,13 @@ const NavBar = () => {
             href="/"
             sx={{
               mr: 2,
-              display: { xs: "flex", md: "none" },
+              display: {
+                xs: "flex",
+                sm: "flex",
+                md: "none",
+                lg: "none",
+                xl: "none",
+              },
               flexGrow: 1,
               fontFamily: "Quicksand",
               fontWeight: 400,
@@ -133,7 +164,18 @@ const NavBar = () => {
           >
             Big Sister for Small Sister
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              display: {
+                xs: "none",
+                sm: "none",
+                md: "flex",
+                lg: "flex",
+                xl: "flex",
+              },
+            }}
+          >
             {NavBarItems.map((item) => {
               return (
                 <Button key={item.title} sx={{ display: "block" }}>
