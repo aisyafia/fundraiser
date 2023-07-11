@@ -32,6 +32,7 @@ const NavBar = () => {
   };
 
   const NavBarItems = [
+    { href: "/projects", title: "Projects" },
     { href: "/goal", title: "Our Goal" },
     { href: "/supportus", title: "Support Us" },
     { href: "/team", title: "Our Team" },
@@ -82,10 +83,9 @@ const NavBar = () => {
                       to={`${item.href}`}
                       style={{
                         textDecoration: "none",
-                        margin: "0.75rem",
-                        padding: "0.25rem",
+                        margin: "0.25rem",
                         color: "Coral",
-                        fontWeight: 800,
+                        fontWeight: 600,
                         fontSize: "large",
                       }}
                     >
@@ -99,10 +99,10 @@ const NavBar = () => {
                   onClick={openGoFundMe}
                   sx={{
                     display: "block",
-                    margin: "0.75rem",
-                    padding: "0.25rem",
+                    margin: "0.25rem",
+                    padding: "0.15rem",
                     color: "#720026",
-                    fontWeight: 800,
+                    fontWeight: 600,
                     fontSize: "large",
                     backgroundColor: "Coral",
                     "&:hover": {
@@ -141,10 +141,9 @@ const NavBar = () => {
                     to={`${item.href}`}
                     style={{
                       textDecoration: "none",
-                      margin: "0.75rem",
-                      padding: "0.25rem",
+                      margin: "0.25rem",
                       color: "Coral",
-                      fontWeight: 800,
+                      fontWeight: 600,
                       fontSize: "large",
                     }}
                   >

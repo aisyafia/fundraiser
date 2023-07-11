@@ -7,6 +7,7 @@ import Header from "./components/Header";
 import NavBar from "./components/NavBar";
 import SupportPage from "./pages/SupportPage";
 import TeamPage from "./pages/TeamPage";
+import ProjectsPage from "./pages/ProjectsPage";
 import { ThemeProvider, createTheme } from "@mui/material";
 
 function App() {
@@ -45,6 +46,7 @@ function App() {
         <Header />
         <Routes>
           <Route path="/" element={<HomePage />} />
+          <Route path="/projects" element={<ProjectsPage />} />
           <Route path="/goal" element={<OurGoalPage />} />
           <Route path="/supportus" element={<SupportPage />} />
           <Route path="/team" element={<TeamPage />} />
