@@ -45,7 +45,7 @@ const SupportPage = () => {
           </Typography>
         </Grid>
         <Grid item xs={6}>
-          <img src={Photo5} alt="kit for Samburu girls" width="500px" />
+          <img src={Photo5} alt="kit for Samburu girls" width="100%" />
         </Grid>
       </Grid>
     </Container>

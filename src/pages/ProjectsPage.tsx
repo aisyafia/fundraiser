@@ -8,9 +8,15 @@ const ProjectsPage = () => {
       <Typography variant="h4" align="center">
         Project Samburu Menstrual Kit
       </Typography>
-      <Grid container direction={"row"} marginBottom={1}>
+      <Grid
+        container
+        direction={"row"}
+        marginBottom={1}
+        spacing={{ xs: 2, md: 3 }}
+        columns={{ xs: 4, sm: 8, md: 12 }}
+      >
         <Grid item xs={6}>
-          <img src={Photo2} alt="Nai and the girls" width="500px" />
+          <img src={Photo2} alt="Nai and the girls" width="100%" />
         </Grid>
         <Grid item maxWidth="300px" xs={6}>
           <Typography>
@@ -44,7 +50,13 @@ const ProjectsPage = () => {
         </Grid>
       </Grid>
       <br />
-      <Grid container direction={"row"} spacing={2} marginBottom={4}>
+      <Grid
+        container
+        direction={"row"}
+        marginBottom={4}
+        spacing={{ xs: 2, md: 3 }}
+        columns={{ xs: 4, sm: 8, md: 12 }}
+      >
         <Grid item maxWidth="500px" xs={6}>
           <Typography>
             Unfortunately for Samburu community we are pastoralist and fully
@@ -84,7 +96,7 @@ const ProjectsPage = () => {
           </Typography>
         </Grid>
         <Grid item xs={6} padding={1}>
-          <img src={Photo1} alt="Samburu school kids" width="500px" />
+          <img src={Photo1} alt="Samburu school kids" width="100%" />
         </Grid>
       </Grid>
     </Container>

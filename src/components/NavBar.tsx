@@ -51,7 +51,7 @@ const NavBar = () => {
               display: {
                 xs: "none",
                 sm: "none",
-                md: "flex",
+                md: "none",
                 lg: "flex",
                 xl: "flex",
               },
@@ -71,7 +71,7 @@ const NavBar = () => {
               display: {
                 xs: "flex",
                 sm: "flex",
-                md: "none",
+                md: "flex",
                 lg: "none",
                 xl: "none",
               },
@@ -95,7 +95,7 @@ const NavBar = () => {
                 display: {
                   xs: "block",
                   sm: "block",
-                  md: "none",
+                  md: "block",
                   lg: "none",
                   xl: "none",
                 },
@@ -150,7 +150,7 @@ const NavBar = () => {
               display: {
                 xs: "flex",
                 sm: "flex",
-                md: "none",
+                md: "flex",
                 lg: "none",
                 xl: "none",
               },
@@ -170,7 +170,7 @@ const NavBar = () => {
               display: {
                 xs: "none",
                 sm: "none",
-                md: "flex",
+                md: "none",
                 lg: "flex",
                 xl: "flex",
               },
