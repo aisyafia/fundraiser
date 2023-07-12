@@ -52,7 +52,7 @@ const NavBar = () => {
                 xs: "none",
                 sm: "none",
                 md: "none",
-                lg: "flex",
+                lg: "block",
                 xl: "flex",
               },
               fontFamily: "Quicksand",
@@ -71,7 +71,7 @@ const NavBar = () => {
               display: {
                 xs: "flex",
                 sm: "flex",
-                md: "flex",
+                md: "auto",
                 lg: "none",
                 xl: "none",
               },
@@ -95,7 +95,7 @@ const NavBar = () => {
                 display: {
                   xs: "block",
                   sm: "block",
-                  md: "block",
+                  md: "none",
                   lg: "none",
                   xl: "none",
                 },
@@ -111,7 +111,7 @@ const NavBar = () => {
                         margin: "0.25rem",
                         color: "Coral",
                         fontWeight: 600,
-                        fontSize: "large",
+                        fontSize: "1rem",
                       }}
                     >
                       {item.title}
@@ -128,7 +128,7 @@ const NavBar = () => {
                     padding: "0.15rem",
                     color: "#720026",
                     fontWeight: 600,
-                    fontSize: "large",
+                    fontSize: "1rem",
                     backgroundColor: "Coral",
                     "&:hover": {
                       color: "inherit",
@@ -150,7 +150,7 @@ const NavBar = () => {
               display: {
                 xs: "flex",
                 sm: "flex",
-                md: "flex",
+                md: "auto",
                 lg: "none",
                 xl: "none",
               },
@@ -170,7 +170,7 @@ const NavBar = () => {
               display: {
                 xs: "none",
                 sm: "none",
-                md: "none",
+                md: "flex",
                 lg: "flex",
                 xl: "flex",
               },
@@ -186,7 +186,7 @@ const NavBar = () => {
                       margin: "0.25rem",
                       color: "Coral",
                       fontWeight: 600,
-                      fontSize: "large",
+                      fontSize: "1rem",
                     }}
                   >
                     {item.title}
@@ -203,7 +203,7 @@ const NavBar = () => {
                 padding: "0.25rem",
                 color: "#720026",
                 fontWeight: 800,
-                fontSize: "large",
+                fontSize: "1rem",
                 backgroundColor: "Coral",
                 "&:hover": {
                   color: "inherit",
