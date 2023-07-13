@@ -51,7 +51,7 @@ const NavBar = () => {
               display: {
                 xs: "none",
                 md: "flex",
-                xl: "flex",
+                // xl: "flex",
               },
               fontFamily: "Quicksand",
               fontWeight: 400,
@@ -70,8 +70,8 @@ const NavBar = () => {
                 xs: "flex",
                 // sm: "flex",
                 md: "none",
-                lg: "none",
-                xl: "none",
+                // lg: "none",
+                // xl: "none",
               },
             }}
           >
@@ -94,8 +94,8 @@ const NavBar = () => {
                   xs: "block",
                   // sm: "block",
                   md: "none",
-                  lg: "none",
-                  xl: "none",
+                  // lg: "none",
+                  // xl: "none",
                 },
               }}
             >
@@ -149,8 +149,8 @@ const NavBar = () => {
                 xs: "flex",
                 // sm: "flex",
                 md: "none",
-                lg: "none",
-                xl: "none",
+                // lg: "none",
+                // xl: "none",
               },
               flexGrow: 1,
               fontFamily: "Quicksand",
@@ -169,8 +169,8 @@ const NavBar = () => {
                 xs: "none",
                 // sm: "none",
                 md: "flex",
-                lg: "flex",
-                xl: "flex",
+                // lg: "flex",
+                // xl: "flex",
               },
             }}
           >
