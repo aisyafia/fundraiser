@@ -39,7 +39,7 @@ const NavBar = () => {
   ];
   return (
     <AppBar position="static">
-      <Container maxWidth="lg">
+      <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -102,18 +102,20 @@ const NavBar = () => {
               {NavBarItems.map((item) => {
                 return (
                   <MenuItem key={item.title} onClick={handleCloseNav}>
-                    <NavLink
-                      to={`${item.href}`}
-                      style={{
-                        textDecoration: "none",
-                        margin: "0.25rem",
-                        color: "Coral",
-                        fontWeight: 600,
-                        fontSize: "1rem",
-                      }}
-                    >
-                      {item.title}
-                    </NavLink>
+                    <Typography>
+                      <NavLink
+                        to={`${item.href}`}
+                        style={{
+                          textDecoration: "none",
+                          margin: "0.25rem",
+                          color: "Coral",
+                          fontWeight: 600,
+                          fontSize: "1rem",
+                        }}
+                      >
+                        {item.title}
+                      </NavLink>
+                    </Typography>
                   </MenuItem>
                 );
               })}
