@@ -50,9 +50,7 @@ const NavBar = () => {
               mr: 2,
               display: {
                 xs: "none",
-                sm: "none",
-                md: "none",
-                lg: "block",
+                md: "flex",
                 xl: "flex",
               },
               fontFamily: "Quicksand",
@@ -70,8 +68,8 @@ const NavBar = () => {
               flexGrow: 1,
               display: {
                 xs: "flex",
-                sm: "flex",
-                md: "auto",
+                // sm: "flex",
+                md: "none",
                 lg: "none",
                 xl: "none",
               },
@@ -94,7 +92,7 @@ const NavBar = () => {
               sx={{
                 display: {
                   xs: "block",
-                  sm: "block",
+                  // sm: "block",
                   md: "none",
                   lg: "none",
                   xl: "none",
@@ -149,8 +147,8 @@ const NavBar = () => {
               mr: 2,
               display: {
                 xs: "flex",
-                sm: "flex",
-                md: "auto",
+                // sm: "flex",
+                md: "none",
                 lg: "none",
                 xl: "none",
               },
@@ -169,7 +167,7 @@ const NavBar = () => {
               flexGrow: 1,
               display: {
                 xs: "none",
-                sm: "none",
+                // sm: "none",
                 md: "flex",
                 lg: "flex",
                 xl: "flex",
