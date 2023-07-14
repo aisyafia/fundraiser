@@ -27,7 +27,10 @@ function App() {
         fontSize: "2rem",
         fontWeight: 700,
         color: "#720026",
-        marginBottom: "0.75rem",
+        marginBottom: "0.85rem",
+      },
+      body1: {
+        fontSize: "0.9rem",
       },
     },
     breakpoints: {

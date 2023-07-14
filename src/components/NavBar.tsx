@@ -51,11 +51,10 @@ const NavBar = () => {
               display: {
                 xs: "none",
                 md: "flex",
-                // xl: "flex",
               },
               fontFamily: "Quicksand",
               fontWeight: 400,
-              letterSpacing: ".2rem",
+              letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}
@@ -68,10 +67,7 @@ const NavBar = () => {
               flexGrow: 1,
               display: {
                 xs: "flex",
-                // sm: "flex",
                 md: "none",
-                // lg: "none",
-                // xl: "none",
               },
             }}
           >
@@ -92,30 +88,25 @@ const NavBar = () => {
               sx={{
                 display: {
                   xs: "block",
-                  // sm: "block",
                   md: "none",
-                  // lg: "none",
-                  // xl: "none",
                 },
               }}
             >
               {NavBarItems.map((item) => {
                 return (
                   <MenuItem key={item.title} onClick={handleCloseNav}>
-                    <Typography>
-                      <NavLink
-                        to={`${item.href}`}
-                        style={{
-                          textDecoration: "none",
-                          margin: "0.25rem",
-                          color: "Coral",
-                          fontWeight: 600,
-                          fontSize: "1rem",
-                        }}
-                      >
-                        {item.title}
-                      </NavLink>
-                    </Typography>
+                    <NavLink
+                      to={`${item.href}`}
+                      style={{
+                        textDecoration: "none",
+                        margin: "0.25rem",
+                        color: "Coral",
+                        fontWeight: 600,
+                        fontSize: "1rem",
+                      }}
+                    >
+                      {item.title}
+                    </NavLink>
                   </MenuItem>
                 );
               })}
@@ -149,14 +140,11 @@ const NavBar = () => {
               mr: 2,
               display: {
                 xs: "flex",
-                // sm: "flex",
                 md: "none",
-                // lg: "none",
-                // xl: "none",
               },
               flexGrow: 1,
               fontFamily: "Quicksand",
-              fontWeight: 400,
+              fontWeight: 500,
               letterSpacing: ".2rem",
               color: "inherit",
               textDecoration: "none",
@@ -167,12 +155,10 @@ const NavBar = () => {
           <Box
             sx={{
               flexGrow: 1,
+              justifyContent: "center",
               display: {
                 xs: "none",
-                // sm: "none",
                 md: "flex",
-                // lg: "flex",
-                // xl: "flex",
               },
             }}
           >

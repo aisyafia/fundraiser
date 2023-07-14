@@ -7,7 +7,13 @@ const SupportPage = () => {
       <Typography variant="h4" align="center">
         Support Us!
       </Typography>
-      <Grid container direction={"row"} spacing={2} marginBottom={4}>
+      <Grid
+        container
+        direction={"row"}
+        spacing={{ xs: 2, md: 3 }}
+        columns={{ xs: 4, sm: 8, md: 12 }}
+        marginBottom={4}
+      >
         <Grid item maxWidth="500px" xs={6}>
           <Typography>
             Join us in providing support to our girls! Click on the button below

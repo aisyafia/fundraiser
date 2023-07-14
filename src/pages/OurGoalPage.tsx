@@ -7,7 +7,13 @@ const OurGoalPage = () => {
       <Typography variant="h4" align="center">
         Our Goal
       </Typography>
-      <Grid container direction={"row"} spacing={1} marginBottom={4}>
+      <Grid
+        container
+        direction={"row"}
+        spacing={{ xs: 2, md: 3 }}
+        columns={{ xs: 4, sm: 8, md: 12 }}
+        marginBottom={4}
+      >
         <Grid item xs={6}>
           <img src={Photo4} alt="Samburu school girls" width="100%" />
         </Grid>

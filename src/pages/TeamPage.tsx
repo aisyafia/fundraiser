@@ -53,6 +53,7 @@ const TeamPage = () => {
         container
         sx={{
           mb: 2,
+          mt: 0.5,
           display: "flex",
           flexDirection: "row",
           justifyContent: "center",
@@ -60,7 +61,7 @@ const TeamPage = () => {
       >
         {teamData.map((team) => {
           return (
-            <Card key={team.photo} sx={{ maxWidth: 345, m: 0.5 }}>
+            <Card key={team.photo} sx={{ maxWidth: 345, m: 0.7 }}>
               <CardMedia
                 sx={{ height: 300 }}
                 image={require("../Assets/" + team.photo + ".jpeg")}
