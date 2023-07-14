@@ -16,8 +16,23 @@ const SupportPage = () => {
       >
         <Grid item maxWidth="500px" xs={6}>
           <Typography>
-            Join us in providing support to our girls! Click on the button below
-            to go to our gofundme page!
+            This project will benefit 350 girls from Lodokejek Primary School,
+            Lodokejek Secondary School, and Loltulelei Primary School. It costs
+            €10 to provide Menstrual hygiene training, 2 undergarments and
+            Menstrual kit with 6pcs that will last for two years. For 350 girls,
+            our aim is to raise €3500.
+          </Typography>
+          <br />
+          <Typography>
+            To put it in perspective, a €20 donation will meet the menstrual
+            needs of 2 girls for 2 years. Having these crucial needs met will
+            empower these girls and give them an opportunity to attend classes
+            as the male counterpart without constant fear of being left behind.
+          </Typography>
+          <br />
+          <Typography>
+            Please join us to support the dreams of these girls! Click on the
+            'Donate' button, or below to go to our gofundme page!
           </Typography>
           <br />
           <Typography>
@@ -38,7 +53,7 @@ const SupportPage = () => {
             target="_blank"
             rel="noreferrer"
           >
-            <Button variant="contained" sx={{ p: 2 }}>
+            <Button variant="contained" sx={{ p: 2, align: "center" }}>
               Send donation on our gofundme
             </Button>
           </a>

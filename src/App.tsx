@@ -3,10 +3,10 @@ import { Routes, Route } from "react-router-dom";
 import { Container } from "@mui/material";
 import {
   HomePage,
-  OurGoalPage,
   ProjectsPage,
   SupportPage,
   TeamPage,
+  SignUpPage,
 } from "./pages";
 import { Header, NavBar } from "./components";
 import { ThemeProvider, createTheme } from "@mui/material";
@@ -51,9 +51,9 @@ function App() {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/projects" element={<ProjectsPage />} />
-          <Route path="/goal" element={<OurGoalPage />} />
           <Route path="/supportus" element={<SupportPage />} />
           <Route path="/team" element={<TeamPage />} />
+          <Route path="/joinus" element={<SignUpPage />} />
         </Routes>
       </Container>
     </ThemeProvider>

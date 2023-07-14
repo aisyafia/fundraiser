@@ -33,7 +33,6 @@ const NavBar = () => {
 
   const NavBarItems = [
     { href: "/projects", title: "Projects" },
-    { href: "/goal", title: "Our Goal" },
     { href: "/supportus", title: "Support Us" },
     { href: "/team", title: "Our Team" },
   ];
@@ -48,18 +47,20 @@ const NavBar = () => {
             href="/"
             sx={{
               mr: 2,
+              ml: 2,
               display: {
                 xs: "none",
                 md: "flex",
               },
               fontFamily: "Quicksand",
-              fontWeight: 400,
-              letterSpacing: ".1rem",
+              fontSize: "1.5rem",
+              fontWeight: 500,
+              letterSpacing: ".3rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            Big Sister for Small Sister
+            Big Sis for Small Sis
           </Typography>
 
           <Box
@@ -144,18 +145,18 @@ const NavBar = () => {
               },
               flexGrow: 1,
               fontFamily: "Quicksand",
-              fontWeight: 500,
-              letterSpacing: ".2rem",
+              fontWeight: 700,
+              letterSpacing: ".1rem",
               color: "inherit",
               textDecoration: "none",
             }}
           >
-            Big Sister for Small Sister
+            Big Sis for Small Sis
           </Typography>
           <Box
             sx={{
               flexGrow: 1,
-              justifyContent: "center",
+              justifyContent: "space-evenly",
               display: {
                 xs: "none",
                 md: "flex",

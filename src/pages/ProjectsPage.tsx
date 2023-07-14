@@ -6,7 +6,7 @@ const ProjectsPage = () => {
   return (
     <Container>
       <Typography variant="h4" align="center">
-        Project Samburu Menstrual Kit
+        Our Current Project
       </Typography>
       <Grid
         container
@@ -20,7 +20,8 @@ const ProjectsPage = () => {
         </Grid>
         <Grid item maxWidth="300px" xs={6}>
           <Typography>
-            This is our first project, where we partnered with{" "}
+            We are very excited about this project because we have partnered
+            with{" "}
             <a
               href="https://t4bfoundation.org/"
               target="_blank"
@@ -28,24 +29,30 @@ const ProjectsPage = () => {
             >
               Together For The Better Foundation
             </a>{" "}
-            to provide 350 Menstrual Kits to 350 girls in three schools. Aruna
-            Varsani founded the Foundation to address Period Poverty through the
+            to provide 350 Menstrual Kits to 350 girls in three schools.{" "}
+            <a
+              href="https://www.wef.org.in/aruna-varsani/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Aruna Varsani
+            </a>{" "}
+            founded the Foundation to address Period Poverty through the
             provision of environmentally friendly reusable sanitary pads.
           </Typography>
           <br />
           <Typography>
-            Early this year when the Kenya Health Demography Survey report came
-            out, our founder, Naisula Lepariyo, realised that the village where
-            she grew up in Samburu was leading with a 50% rate of school dropout
-            for girls. It was devastating news.
+            The three schools are located in Lodokejek Ward in Samburu County in
+            Northern Kenya. Lodokejek Ward had the highest rate of girls dropout
+            rate in the country with 50% of girls dropping out of school. This
+            figure was devastating.
           </Typography>
           <br />
           <Typography>
-            Through phone calls and consultation with her former teachers, she
-            realised that Period Poverty was a major issue. Girls missed crucial
-            classes at specific time of the month, hence being left behind to
-            catch up. This has led to low motivation and—at times—even complete
-            drop out.
+            Through phone calls and consultation with the teachers, we realised
+            that Period Poverty was a major issue. Girls missed crucial classes
+            at specific time of the month, hence being left behind to catch up.
+            This has led to low motivation and—at times—even complete drop out.
           </Typography>
         </Grid>
       </Grid>
@@ -59,8 +66,8 @@ const ProjectsPage = () => {
       >
         <Grid item maxWidth="500px" xs={6}>
           <Typography>
-            Unfortunately for Samburu community we are pastoralist and fully
-            reliant on rain-fed pasture for our livelihood.{" "}
+            Unfortunately, Samburu community are pastoralist and fully reliant
+            on rain-fed pasture for their livelihood.{" "}
             <a
               href="https://www.bbc.com/news/world-africa-51234135"
               target="_blank"
@@ -85,9 +92,9 @@ const ProjectsPage = () => {
           <Typography>
             The need is very clear when we spoke to young girls, who would wake
             up looking forward to going to that Math class or Science class and
-            realize their periods have just arrived unannounced. This means they
-            will miss that class—and so many afterwards—as they wait a couple of
-            days at home for their Period to end.
+            realized their periods have just arrived unannounced. This means
+            they will miss that class—and so many afterwards—as they wait a
+            couple of days at home for their Period to end.
           </Typography>
           <br />
           <Typography>

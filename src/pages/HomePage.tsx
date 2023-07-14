@@ -8,7 +8,7 @@ const HomePage = () => {
       <Grid>
         <Typography variant="body1">
           <em>
-            <strong>Big Sister for Small Sister</strong>
+            <strong>Big Sis for Small Sis</strong>
           </em>{" "}
           is a 100% volunteer network made of women from all over the world who
           are donating their time, resources, and expertise to support young

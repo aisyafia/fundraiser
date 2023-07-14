@@ -27,7 +27,7 @@ const Header = () => {
           variant="quilted"
           sx={{ width: 1550, height: 165 }}
           cols={4}
-          rowHeight={175}
+          rowHeight={165}
         >
           {itemData.map((item) => {
             return (
