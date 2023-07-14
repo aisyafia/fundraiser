@@ -1,3 +1,3 @@
-# Samburu Menstrual Kit Project for School Girls
+# Big Sis for Small sis Network
 
-I created this website for a friend who is raising funds to provide menstrual kits for school girls back in her Samburu community.
+I created this website for a friend who created a network of women volunteers. Currently focusing on supporting young, marginalized girls in Northern Kenya.

@@ -53,7 +53,7 @@ const TeamPage = () => {
       name: "Dagmar Tischman",
       desc: "born in Rhineland, Dagmar spend a bit of  her childhood in California USA before moving back to Germany. She studied as a teacher but in 1983  she decided to switch career and do what she loves best - Painting. Her work has been exhibited in big and small spaces.",
       photo: "dagmar",
-      url: "",
+      url: "http://artwork-tinschmann.de/cv",
     },
   ];
 
@@ -106,7 +106,11 @@ const TeamPage = () => {
           </CardContent>
           <CardActions>
             <Link to="/joinus">
-              <Button variant="contained" color="secondary">
+              <Button
+                variant="contained"
+                color="secondary"
+                // onClick={() => console.log(process.env)}
+              >
                 Sign up to join
               </Button>
             </Link>
