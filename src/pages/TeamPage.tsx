@@ -105,12 +105,12 @@ const TeamPage = () => {
             <Typography sx={{ fontSize: "medium" }}>Join us today</Typography>
           </CardContent>
           <CardActions>
-            <Link to="/joinus">
-              <Button
-                variant="contained"
-                color="secondary"
-                // onClick={() => console.log(process.env)}
-              >
+            <Link
+              to="https://forms.gle/vGMScAM3sREUVbfL7"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Button variant="contained" color="secondary">
                 Sign up to join
               </Button>
             </Link>

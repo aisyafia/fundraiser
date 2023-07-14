@@ -3,12 +3,12 @@ import emailjs from "@emailjs/browser";
 import React, { useRef } from "react";
 
 const SignUpPage = () => {
-  const form = useRef();
-  const currentForm = form.current;
+  const form = useRef<HTMLFormElement>(null);
 
-  const sendEmail = (e: React.SyntheticEvent) => {
+  const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    if (currentForm == null) return;
+    const currentForm = form.current;
+    if (currentForm === null) return;
     emailjs
       .sendForm(
         process.env.REACT_APP_SERVICE_ID,
@@ -24,7 +24,7 @@ const SignUpPage = () => {
           console.log(error.text);
         }
       );
-    const resetForm = e.target as HTMLFormElement;
+    const resetForm = e.currentTarget as HTMLFormElement;
     resetForm.reset();
   };
 
@@ -51,7 +51,7 @@ const SignUpPage = () => {
             "& .MuiTextField-root": { m: 0.5, maxWidth: "90%" },
           }}
         >
-          <form ref={currentForm} onSubmit={sendEmail} action="?" method="POST">
+          <form ref={form} onSubmit={sendEmail} action="?" method="POST">
             <TextField
               fullWidth
               variant="filled"
