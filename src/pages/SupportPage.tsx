@@ -1,6 +1,7 @@
 import { Container, Grid, Typography, Button } from "@mui/material";
 import Photo5 from "../Assets/PHOTO 5.jpg";
 import { GoFundMe } from "../components";
+import { Link } from "react-router-dom";
 
 const SupportPage = () => {
   return (
@@ -33,9 +34,27 @@ const SupportPage = () => {
           <br />
           <Typography>
             Please join us to support the dreams of these girls! Click on the
-            'Donate Now' button, or the banner below to go to our gofundme page!
+            'Donate Now' button, or below to go to our gofundme page!
           </Typography>
           <GoFundMe />
+          <br />
+          <Link
+            to="https://www.gofundme.com/f/reusable-menstrual-kit-for-350-girls-in-samburu?utm_campaign=p_lico+share-sheet&utm_location=DASHBOARD&utm_medium=copy_link&utm_source=customer"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Button
+              variant="contained"
+              sx={{
+                p: 1,
+                mb: 1,
+                align: "center",
+                display: { xs: "none", md: "flex" },
+              }}
+            >
+              Send donation on our gofundme
+            </Button>
+          </Link>
           <Typography>
             If you are in Kenya please donate directly to{" "}
             <a
@@ -48,17 +67,6 @@ const SupportPage = () => {
             at LIPA NA MPESA TILL NO:52 650 45 and send the message to
             0722-746-333 to ensure that its captured for Samburu Project.
           </Typography>
-          <br />
-          <a
-            href="https://www.gofundme.com/f/reusable-menstrual-kit-for-350-girls-in-samburu?utm_campaign=p_lico+share-sheet&utm_location=DASHBOARD&utm_medium=copy_link&utm_source=customer"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <Button variant="contained" sx={{ p: 2, align: "center" }}>
-              Send donation on our gofundme
-            </Button>
-          </a>
-          <br />
           <br />
           <Typography>
             Share the link to your friends and family. Leave messages of
