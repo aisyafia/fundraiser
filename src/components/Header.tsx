@@ -22,11 +22,41 @@ const Header = () => {
 
   return (
     <Container>
-      <Grid container marginTop={0.5} marginBottom={3}>
+      <Grid
+        container
+        marginTop={0.5}
+        marginBottom={3}
+        sx={{ display: { xs: "none", md: "flex" } }}
+      >
         <ImageList
           variant="quilted"
           sx={{ width: 1550, height: 165 }}
           cols={4}
+          rowHeight={165}
+        >
+          {itemData.map((item) => {
+            return (
+              <ImageListItem key={item.title}>
+                <img
+                  src={require("../Assets/" + item.img + ".jpg")}
+                  alt={item.desc}
+                  loading="lazy"
+                />
+              </ImageListItem>
+            );
+          })}
+        </ImageList>
+      </Grid>
+      <Grid
+        container
+        marginTop={0.5}
+        marginBottom={3}
+        sx={{ display: { xs: "flex", md: "none" } }}
+      >
+        <ImageList
+          variant="quilted"
+          sx={{ width: 1550, height: 165 }}
+          cols={3}
           rowHeight={165}
         >
           {itemData.map((item) => {
