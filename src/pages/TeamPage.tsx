@@ -38,7 +38,7 @@ const TeamPage = () => {
       url: "https://www.wef.org.in/aruna-varsani/",
     },
     {
-      name: "Antonio Ackerman",
+      name: "Antonia Ackerman",
       desc: "is currently based in the Netherlands and is the Director of Manda  Production a film company based in the Netherlands. Antonio also uses her platform for companies that are positively impacting our environment.",
       photo: "antonio",
       url: "https://mandaproductions.nl/en/video-production-company/",
@@ -50,7 +50,7 @@ const TeamPage = () => {
       url: "http://www.hiyoli-togawa.com/en/welcome/",
     },
     {
-      name: "Dagmar Tischman",
+      name: "Dagmar Tinschmann",
       desc: "born in Rhineland, Dagmar spend a bit of  her childhood in California USA before moving back to Germany. She studied as a teacher but in 1983  she decided to switch career and do what she loves best - Painting. Her work has been exhibited in big and small spaces.",
       photo: "dagmar",
       url: "http://artwork-tinschmann.de/cv",
@@ -105,11 +105,7 @@ const TeamPage = () => {
             <Typography sx={{ fontSize: "medium" }}>Join us today</Typography>
           </CardContent>
           <CardActions>
-            <Link
-              to="https://forms.gle/vGMScAM3sREUVbfL7"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <Link to="/joinus">
               <Button variant="contained" color="secondary">
                 Sign up to join
               </Button>

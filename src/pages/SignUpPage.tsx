@@ -7,14 +7,15 @@ const SignUpPage = () => {
 
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
+
     const currentForm = form.current;
     if (currentForm === null) return;
     emailjs
       .sendForm(
-        process.env.REACT_APP_SERVICE_ID,
-        process.env.REACT_APP_TEMPLATE_ID,
+        "service_5mjxa7b",
+        "template_1bo90zm",
         currentForm,
-        process.env.REACT_APP_PUBLIC_KEY
+        "6x-8rpDXPHa_xzIBr"
       )
       .then(
         (result) => {
@@ -51,7 +52,7 @@ const SignUpPage = () => {
             "& .MuiTextField-root": { m: 0.5, maxWidth: "90%" },
           }}
         >
-          <form ref={form} onSubmit={sendEmail} action="?" method="POST">
+          <form ref={form} onSubmit={sendEmail} action="?">
             <TextField
               fullWidth
               variant="filled"
