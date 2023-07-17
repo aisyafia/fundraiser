@@ -1,5 +1,6 @@
 import { Container, Grid, Typography, Button } from "@mui/material";
 import Photo5 from "../Assets/PHOTO 5.jpg";
+import { GoFundMe } from "../components";
 
 const SupportPage = () => {
   return (
@@ -32,9 +33,9 @@ const SupportPage = () => {
           <br />
           <Typography>
             Please join us to support the dreams of these girls! Click on the
-            'Donate' button, or below to go to our gofundme page!
+            'Donate Now' button, or the banner below to go to our gofundme page!
           </Typography>
-          <br />
+          <GoFundMe />
           <Typography>
             If you are in Kenya please donate directly to{" "}
             <a

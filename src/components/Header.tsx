@@ -4,9 +4,9 @@ const Header = () => {
   const itemData = [
     { title: "Photo5", desc: "Samburu kids with the kit", img: "PHOTO 5" },
     {
-      title: "GoFundMe",
-      desc: "GOFUNDME banner",
-      img: "GoFundMe",
+      title: "Photo6",
+      desc: "the menstrual kit",
+      img: "PHOTO 6",
     },
     {
       title: "Photo3",
@@ -14,9 +14,9 @@ const Header = () => {
       img: "PHOTO 3",
     },
     {
-      title: "Photo6",
-      desc: "the menstrual kit",
-      img: "PHOTO 6",
+      title: "GoFundMe",
+      desc: "GOFUNDME banner",
+      img: "GoFundMe",
     },
   ];
 

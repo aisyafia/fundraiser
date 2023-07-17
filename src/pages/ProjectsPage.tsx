@@ -1,6 +1,7 @@
 import { Container, Grid, Typography } from "@mui/material";
 import Photo1 from "../Assets/PHOTO 1.jpg";
 import Photo2 from "../Assets/PHOTO 2 2.jpg";
+import { GoFundMe } from "../components";
 
 const ProjectsPage = () => {
   return (
@@ -18,7 +19,7 @@ const ProjectsPage = () => {
         <Grid item xs={6}>
           <img src={Photo2} alt="Nai and the girls" width="100%" />
         </Grid>
-        <Grid item maxWidth="300px" xs={6}>
+        <Grid item xs={6}>
           <Typography>
             We are very excited about this project because we have partnered
             with{" "}
@@ -56,7 +57,7 @@ const ProjectsPage = () => {
           </Typography>
         </Grid>
       </Grid>
-      <br />
+      <GoFundMe />
       <Grid
         container
         direction={"row"}
@@ -64,7 +65,7 @@ const ProjectsPage = () => {
         spacing={{ xs: 2, md: 3 }}
         columns={{ xs: 4, sm: 8, md: 12 }}
       >
-        <Grid item maxWidth="500px" xs={6}>
+        <Grid item xs={6}>
           <Typography>
             Unfortunately, Samburu community are pastoralist and fully reliant
             on rain-fed pasture for their livelihood.{" "}

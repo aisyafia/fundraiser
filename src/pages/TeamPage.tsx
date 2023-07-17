@@ -21,7 +21,7 @@ const TeamPage = () => {
     },
     {
       name: "Lutfia Aisya",
-      desc: "Born in Indonesia, but currently reside in the Netherlands, Fia studied in the Institute of Development Policy and Management (IOB) in University Antwerp with Naisula. She is now switching careers into web development. She created this website because she believes that girls' access to life and education should not be affected by a natural occurrence, like menstruation.",
+      desc: "Born in Indonesia, but currently reside in Amsterdam, Fia studied in the Institute of Development Policy and Management (IOB) in University Antwerp with Naisula. She recently finished a full stack development bootcamp. She inspire to work in both web and social development.",
       photo: "fia",
       url: "https://www.linkedin.com/in/aisyafia/",
     },
@@ -38,14 +38,14 @@ const TeamPage = () => {
       url: "https://www.wef.org.in/aruna-varsani/",
     },
     {
-      name: "Antonia Ackerman",
-      desc: "is currently based in the Netherlands and is the Director of Manda  Production a film company based in the Netherlands. Antonio also uses her platform for companies that are positively impacting our environment.",
+      name: "Antonia Ackermans",
+      desc: "is currently based in the Netherlands and is the Director of Manda  Production a film company based in the Netherlands. Antonia also uses her platform for companies that are positively impacting our environment.",
       photo: "antonio",
       url: "https://mandaproductions.nl/en/video-production-company/",
     },
     {
       name: "Hiyoli Togawa",
-      desc: "is well known Violist and an artist. Hiyoli grew up in the Rhineland and having Japanese and Australian roots, Hiyoli Togawa speaks her three “mother tongues” German, Japanese and Australian fluently. Building bridges between people, cultures and art by means of words and sounds is a primary concern of the cosmopolitan artist.",
+      desc: "is well known violist and an artist. Hiyoli grew up in the Rhineland and having Japanese and Australian roots, Hiyoli Togawa speaks her three “mother tongues” German, Japanese and English fluently. Building bridges between people, cultures and art by means of words and sounds is a primary concern of the cosmopolitan artist.",
       photo: "hiyoli",
       url: "http://www.hiyoli-togawa.com/en/welcome/",
     },
@@ -54,6 +54,12 @@ const TeamPage = () => {
       desc: "born in Rhineland, Dagmar spend a bit of  her childhood in California USA before moving back to Germany. She studied as a teacher but in 1983  she decided to switch career and do what she loves best - Painting. Her work has been exhibited in big and small spaces.",
       photo: "dagmar",
       url: "http://artwork-tinschmann.de/cv",
+    },
+    {
+      name: "Anne Marie Barsøe",
+      desc: "lives in Denmark, but has travelled the world extensively. She works with destination marketing, public relations and project management, and with the promotion of the UN SDGs in the tourism sector (an area with potential to contribute to all of the goals). Anne holds a MSc in Int. Business, Culture & Language, has a strong network, and loves building bonds between people and places to create a more sustainable future for all.",
+      photo: "anne",
+      url: "",
     },
   ];
 
