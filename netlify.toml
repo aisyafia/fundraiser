@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/team"
+  to = "/"
+  status = 200
+  force = true
+  
