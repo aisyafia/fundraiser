@@ -12,10 +12,10 @@ const SignUpPage = () => {
     if (currentForm === null) return;
     emailjs
       .sendForm(
-        "service_5mjxa7b",
-        "template_1bo90zm",
+        process.env.REACT_APP_SERVICE_ID!,
+        process.env.REACT_APP_TEMPLATE_ID!,
         currentForm,
-        "6x-8rpDXPHa_xzIBr"
+        process.env.REACT_APP_PUBLIC_KEY
       )
       .then(
         (result) => {
@@ -27,6 +27,7 @@ const SignUpPage = () => {
       );
     const resetForm = e.currentTarget as HTMLFormElement;
     resetForm.reset();
+    console.log("ENV WORKS?", process.env.REACT_APP_SERVICE_ID);
   };
 
   return (
