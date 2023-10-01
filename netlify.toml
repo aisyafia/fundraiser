@@ -3,4 +3,15 @@
   to = "/"
   status = 200
   force = true
-  
+
+[[redirects]]
+  from = "/supportus"
+  to = "/"
+  status = 200
+  force = true
+
+[[redirects]]
+  from = "/projects"
+  to = "/"
+  status = 200
+  force = true
